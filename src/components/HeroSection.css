@@ -38,9 +38,12 @@ nav div{
 .contact__us__button:hover{
     background-color: #fc8621;
 }
-.nav__button:hover{
-  color: white;
-}
+.nav__button{
+    transition: all 300ms ease;
+  }
+  .nav__button:hover{
+    color: white;
+  }
 .location{
     display: flex;
     align-items: center;
@@ -60,3 +63,4 @@ nav div{
      justify-content: center;
      align-items: center; 
     }
+    
