@@ -1,5 +1,4 @@
 .aboutus__component{
-  border: 2px solid red;
   height: auto;
 }
 .aboutus__component__1{
@@ -49,23 +48,4 @@
   width: 270px;
   padding: 50px 15px 20px;
   height: 350px;
-}
-.aboutus__component__2{
-  margin: 250px 80px 150px
-}
-.aboutus__component__2__div1{
-  width: 40%;
-}
-.aboutus__component__2__div1 h1{
-  font-size: 2.9rem;
-  font-family: 'Playfair Display", sans-serif';
-}
-.aboutus__component__2__div1 p{
-  font-size: 15px;
-  font-weight: 300;
-}
-.aboutus__crousel{
-  margin: 40px 8px;
-  border: 2px solid red;
-  height: 85vh;
 }

@@ -38,33 +38,7 @@ const AboutUsComponent = () => {
               
             </div>
          </div>
-         <div className="aboutus__component__2">
-
-              <div className='aboutus__component__2__div1'>
-                <div>
-                <h3 style={{color:'#fc8621',fontWeight:'400'}}>WHAT WE SERVE</h3>
-                <h1>We Provide Top Destinations</h1>
-                <p>
-                Far far away, behind the word mountains, far from the 
-                countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the 
-                coast of the Semantics, a large language ocean.
-                </p>
-                </div>
-                <div>
-
-                </div>
-
-              </div>
-              <div className="aboutus__crousel">
-                  <Carousel>
-                       <div>
-                          <img style={{width:'400px',height:'500px'}} src={image1} alt="maldevs" />
-                          <h4></h4>
-                          <p></p>
-                       </div>
-                  </Carousel>
-              </div>
-         </div>
+         
     </div>
   )
 }
