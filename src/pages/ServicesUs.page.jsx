@@ -1,4 +1,5 @@
 import React from 'react'
+import DefaultLayoutHoc from '../layout/Default.layout';
 
 const ServicesUs = () => {
   return (
@@ -6,4 +7,4 @@ const ServicesUs = () => {
   )
 }
 
-export default ServicesUs;
+export default DefaultLayoutHoc(ServicesUs);

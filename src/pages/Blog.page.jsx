@@ -1,4 +1,5 @@
 import React from 'react'
+import DefaultLayoutHoc from '../layout/Default.layout';
 
 const Blog = () => {
   return (
@@ -6,4 +7,4 @@ const Blog = () => {
   )
 }
 
-export default Blog;
+export default DefaultLayoutHoc(Blog);

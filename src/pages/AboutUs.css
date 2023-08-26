@@ -1,0 +1,55 @@
+.about__us{
+    position: relative;
+    top:-430px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about__us h1{
+    text-align: center;
+    font-size: 4.1rem;
+    font-family: 'Playfair Display", sans-serif';
+    color: white;
+}
+.about__us p{
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-weight: 200 ;
+
+}
+.adventue{
+    height: 25vh;
+    
+    background-color: #fc8621;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    
+}
+.adventue a{
+    height: 30px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px;
+    border-color: white rgba(255, 255, 255, 0.5);
+    transition: all 500ms ease;
+}
+.adventue a:hover{
+    color: #fc8621;
+    background-color: white;
+}
+.adventue h1{
+    font-family: 'Playfair Display", sans-serif';
+    font-weight: 400;
+    color: white;
+}
+
+

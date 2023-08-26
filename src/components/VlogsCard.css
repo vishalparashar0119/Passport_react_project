@@ -1,0 +1,49 @@
+.vlogCard{
+    margin: 100px 80px 50px;
+   
+}
+.vlogCard h1{
+    font-size: 3rem;
+    font-family: 'Playfair Display", sans-serif';
+    margin-bottom: 20px;
+}
+.card__div{
+      width: 22%;
+      height: auto;
+}
+.card__div img{
+     width: 270px;
+     height: 270px;
+
+}
+.card__div div{
+    margin: 20px;
+}
+.card__div a{
+   text-decoration: none;
+}
+#para{
+    font-size: 13px;
+    font-weight: 100;
+}
+#head{
+    font-size: 16px;
+    font-family:'Playfair Display", sans-serif' ;
+    color: black;
+    margin-bottom:10px ;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+#head:hover{
+    color:#fc8621;
+   
+}
+#para2{
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.ancor{
+    color: #fc8621;
+    margin-top: 30px;
+}

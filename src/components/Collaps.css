@@ -24,3 +24,9 @@
  .ant-collapse-item:last-child .ant-collapse-header {
     border-radius: none !important;
 }
+.ant-collapse-item-active h3{
+    color: white;
+}
+.ant-collapse-item-active .ant-collapse-expand-icon{
+    color: white;
+}

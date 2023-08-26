@@ -1,0 +1,74 @@
+.heading__section{
+    position: relative;
+    top:-530px;
+    margin-left: 80px;
+    width: 37%;
+    z-index: 30;
+    
+}
+.heading__section h1{
+    font-size: 4.1rem;
+    font-family: 'Playfair Display", sans-serif';
+    color: white;
+    
+}
+.icone{
+   display: flex;
+   gap: 5px;
+   align-items: center;
+   margin-top: 40px;
+   color: white;
+   
+   
+}
+.icone p{
+  font-size: 20px;
+  text-align: center;
+}
+.icone__div{
+    font-size: 70px;
+    width: 70px ;
+    height: 70px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.adventue{
+    height: 25vh;
+    
+    background-color: #fc8621;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    
+}
+.adventue a{
+    height: 30px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px;
+    border-color: white rgba(255, 255, 255, 0.5);
+    transition: all 500ms ease;
+}
+.adventue a:hover{
+    color: #fc8621;
+    background-color: white;
+}
+.adventue h1{
+    font-family: 'Playfair Display", sans-serif';
+    font-weight: 400;
+    color: white;
+}
