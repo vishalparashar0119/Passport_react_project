@@ -1,0 +1,26 @@
+.ant-collapse {
+    background-color: transparent;
+    border: none;
+    border-radius: none;
+}
+.ant-collapse-item{
+    border-bottom: none !important;
+    border-radius: none !important;
+} 
+.ant-collapse-content-active{
+    background-color: transparent !important;
+}
+.ant-collapse-content-inactive{
+    background-color: transparent !important;
+}
+.ant-collapse-item-active .ant-collapse-header{
+    background-color: orange !important;
+    border-radius: none !important;
+    border: none;
+}
+.ant-collapse-header {
+    border-radius:none !important;
+}
+ .ant-collapse-item:last-child .ant-collapse-header {
+    border-radius: none !important;
+}
