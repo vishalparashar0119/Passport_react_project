@@ -8,9 +8,9 @@ import vlog2 from '../images/gal_2.jpg.webp';
 import vlog3 from '../images/gal_3.jpg.webp';
 import vlog4 from '../images/gal_4.jpg.webp';
 
-const VlogsCard = () => {
+const VlogsCard = (props) => {
 
-    const [details, setDetails] = useState([{
+    const [details] = useState([{
         key: 1,
         img:  vlog1 ,
         date: 'May 14,2020',
@@ -43,10 +43,11 @@ const VlogsCard = () => {
         link: '#',
 
     },]);
+    const {ishidden} = props;
     return (
         <div className='vlogCard'>
-            <h3 style={{ color: '#fc8621', fontWeight: '400' }}>BLOG</h3>
-            <h1>Recent Posts</h1>
+            <h3  style={{ color: '#fc8621', fontWeight: '400', display: ishidden ? 'none' : 'block' }}>BLOG</h3>
+            <h1 style={{display: ishidden ?'none':'block'}}>Recent Posts</h1>
             <div style={{display:'flex',gap:'40px'}}>
                 {
                     details.map((each , index)=>(

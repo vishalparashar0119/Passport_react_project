@@ -1,0 +1,48 @@
+.blog{
+    position: relative;
+    top:-430px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog h1{
+    text-align: center;
+    font-size: 4.1rem;
+    font-family: 'Playfair Display", sans-serif';
+    color: white;
+}
+.blog p{
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-weight: 200 ;
+
+}
+.paging{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 200px;
+    gap: 2px;
+}
+.paging a{
+     text-decoration: none;
+     color: #fc8621;
+     width: 40px;
+     height: 40px;
+     border: 2px solid  transparent;
+     border-radius: 50%;
+     background-color: rgba(252, 134, 33, 0.1);
+     transition: all 300ms ease;
+     
+}
+.paging a:hover{
+    background-color: #fc8621;
+    color: white;
+}
+

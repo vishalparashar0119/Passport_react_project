@@ -1,7 +1,8 @@
 import React from 'react'
 import './Home.css'
 import { AiFillPlayCircle } from 'react-icons/ai';
-
+//
+import 'animate.css';
 // higher order component 
 import DefaultLayoutHoc from '../layout/Default.layout';
 
@@ -19,7 +20,7 @@ const Home = () => {
           It is Better to Travel Well Than to Arrive
         </h1>
 
-        <div className='icone'>
+        <div className='icone '>
           <a href="https://www.youtube.com/watch?v=mwtbEGNABWU">
 
             <div className='icone__div'>
