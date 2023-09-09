@@ -1,0 +1,125 @@
+.blog {
+    position: relative;
+    top: -430px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog h1 {
+    text-align: center;
+    font-size: 4.1rem;
+    font-family: 'Playfair Display", sans-serif';
+    color: white;
+}
+
+.blog p {
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+
+}
+
+
+
+.contact {
+    margin: 0px 80px;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display", sans-serif';
+
+}
+
+.contact__sub__1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.touch {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.iconesss {
+    width: 50px;
+    height: 50px;
+    background-color: #fc8621;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 28px;
+}
+
+.detailsss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.detailsss h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.detailsss p {
+    font-size: 14px;
+    font-family: 300;
+}
+
+.contact__sub {
+    display: flex;
+    margin-bottom: 40px;
+    gap: 50px;
+}
+
+.from {
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form__div{
+    width: 70%;
+   
+    
+   
+}
+
+
+.st__div {
+    width: 50%;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 200;
+}
+.butt{
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: #fc8621;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}

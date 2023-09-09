@@ -1,0 +1,8 @@
+.section_1{
+    border: 2px solid red;
+    width: 55%;
+    margin: 150px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

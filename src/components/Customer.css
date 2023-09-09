@@ -22,8 +22,10 @@
 }
 .ant-carousel .slick-dots li.slick-active button {
     opacity: 1;
-    background: orange;
+    background: orange;  
+    
 }
+
   
 .customer__main__div1{
     width: 40%;

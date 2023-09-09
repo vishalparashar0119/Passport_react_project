@@ -12,7 +12,8 @@ import image4 from '../images/about_4.jpg.webp';
 const Serve = () => {
    const ref = useRef();
   return (
-    <div><div className="aboutus__component__2">
+    <div>
+      <div className="aboutus__component__2">
       
     <div className='aboutus__component__2__div1'>
       

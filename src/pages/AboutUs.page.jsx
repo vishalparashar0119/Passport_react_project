@@ -4,9 +4,7 @@ import './AboutUs.css'
 
 // components
 import Aboutus from '../components/AboutUs.component';
-import Serve from '../components/Serve.component';
 import Customer from '../components/Customer.component';
-import VlogCard from '../components/VlogsCard.component';
 
 const AboutUs = () => {
   return (
