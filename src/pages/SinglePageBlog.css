@@ -1,8 +1,76 @@
 .section_1{
-    border: 2px solid red;
     width: 55%;
     margin: 150px 80px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.comments{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+.comments img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.comments__img{
+     padding-left: 20px;
+     padding-right: 20px;
+     
+}
+.comments h2{
+     font-weight: 300;
+
+}
+.comments h5{
+    
+    font-weight: 300;
+    color: #ccc;
+}
+.comments p{
+    font-size: 13px;
+
+}
+.comments button{
+     width: 70px;
+     padding: 5px;
+     border: none;
+}
+.comment__section{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.section__2{
+    margin: 150px 80px;
+}
+.section__2 input{
+   padding:15px;
+   width: 200px;
+   font-size: 16px;
+   outline: none;
+}
+.section_2_sec1{
+    margin-top: 50px;
+    
+}
+.section_2_sec1 div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.spam1{
+    color: #fc8621;
+    font-weight: 300;
+}
+.spam2{
+  color: #ccc;
+}
+.aurthor{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

@@ -48,7 +48,7 @@ const VlogsCard = (props) => {
         <div className='vlogCard'>
             <h3  style={{ color: '#fc8621', fontWeight: '400', display: ishidden ? 'none' : 'block' }}>BLOG</h3>
             <h1 style={{display: ishidden ?'none':'block'}}>Recent Posts</h1>
-            <div style={{display:'flex',gap:'40px'}}>
+            <div style={{display:'flex',gap:'40px',}}>
                 {
                     details.map((each , index)=>(
                           <div className='card__div' key={index}>
