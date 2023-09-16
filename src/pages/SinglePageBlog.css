@@ -46,6 +46,7 @@
 }
 .section__2{
     margin: 150px 80px;
+    width: 30%;
 }
 .section__2 input{
    padding:15px;
@@ -72,5 +73,33 @@
 .aurthor{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  margin-top: 100px;
+  gap: 20px;
+}
+.aurthor img{
+    width: 150px;
+    
+    border-radius: 50%;
+
+}
+.aurthor h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+.aurthor p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.aurthor button{
+    width: 150px;
+    padding: 15px;
+    border: none;
+    background-color: #fc8621;
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    transition:  all 0.3s ease;
+}
+.aurthor button:hover{
+      background-color: rgba(252, 134, 33,0.8);
 }
