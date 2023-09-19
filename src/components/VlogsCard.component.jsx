@@ -56,10 +56,10 @@ const VlogsCard = (props) => {
                                <div>
                                 {/* details section */}
                                  <p id='para'>{each.date}</p>
-                                <Link to='/blog'> <h3 id='head'>{each.heading}</h3></Link>
+                                <Link to='/singlepageblog'> <h3 id='head'>{each.heading}</h3></Link>
                                  <p id='para2'>{each.descript}</p>
 
-                                  <Link to='/blog'><a className='ancor' href={each.link}>Read More</a></Link>
+                                  <Link to='/singlepageblog'><a className='ancor' href={each.link}>Read More</a></Link>
                                </div>
                           </div>
                     ))

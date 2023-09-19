@@ -4,8 +4,13 @@ import './SinglePageBlog.css';
 import firstImg from '../images/person_1.jpg.webp'
 import secondImg from '../images/person_2.jpg.webp'
 const SinglePageBlog = () => {
-    return (
+    return (<>
+         <div className='about__us'>
+        <h1>A Blog Single Post</h1>
+        <p>July 17, 2019 • by James Miller</p>
+      </div>
         <div style={{display:'flex'}}>
+            
             <div className='section_1'>
                 <p style={{fontSize:'22px',color:'rgba(0,0,0,0.8)',fontWeight:'300'}}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                 <p style={{fontSize:'14px',fontWeight:'300'}}>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
@@ -76,6 +81,7 @@ const SinglePageBlog = () => {
                  
             </div>
         </div>
+    </>
     )
 }
 
