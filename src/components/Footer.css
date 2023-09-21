@@ -70,11 +70,13 @@
    .footer__section__1{
       display: block;
       margin-top: 60px;
+      width: 100%;
       gap: 90px;
    } 
    .footer{
       background-color: #EFEFEF;
       height: auto;
+      width: 100vw;
       display: flex;
       flex-direction: column;
       padding: 10px;
