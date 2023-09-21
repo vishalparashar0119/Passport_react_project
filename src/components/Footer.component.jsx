@@ -7,7 +7,7 @@ const Footer = () => {
     
     <div className="footer">
       <div className='footer__section__1'>
-          <div style={{width:'30%'}}>
+          <div className='footer__section__1__div__1'>
             
             <h4>About passport</h4>
             <p>Far far away, behind the word mountains, 
@@ -35,24 +35,24 @@ const Footer = () => {
               </div>
             </section>
           </div>
-          <div>
-            <h4>Links</h4>
-            <a href="">About us</a>
-            <a href="">Services</a>
-            <a href="">News</a>
-            <a href="">Careers</a>
-            <a href="">Contact</a>
+          <div >
+            <h4 className='heading4'>Links</h4>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">News</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact</a>
           </div>
           <div>
-          <h4>Company</h4>
-            <a href="">About us</a>
-            <a href="">Services</a>
-            <a href="">News</a>
-            <a href="">Careers</a>
-            <a href="">Contact</a>
+          <h4 className='heading4'>Company</h4>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">News</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact</a>
           </div>
           <div>
-          <h4>Contact</h4>
+          <h4 className='heading4'>Contact</h4>
                <p>43 Raymouth Rd. Baltemoer, London 3910</p>
                <p>+1(123)-456-7890</p>
                <p>+1(123)-456-7890</p>
