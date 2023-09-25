@@ -1,13 +1,12 @@
 import React from 'react'
 import './AboutUs.css';
-import { Carousel } from 'antd';
+
 
 // import images
 
 import image1 from '../images/about_1.jpg.webp';
 import image2 from '../images/about_2.jpg.webp';
-import image3 from '../images/about_3.jpg.webp';
-import image4 from '../images/about_4.jpg.webp';
+
 const AboutUsComponent = () => {
   return (
     <div className='aboutus__component'>

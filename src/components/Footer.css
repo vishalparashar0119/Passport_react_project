@@ -122,5 +122,11 @@
   .heading4{
    margin-top: 40px;
   }
+  .footer__section__2{
+    text-align: center;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+  }
 
  }

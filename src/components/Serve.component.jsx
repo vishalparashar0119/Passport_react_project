@@ -17,7 +17,7 @@ const Serve = () => {
       
     <div className='aboutus__component__2__div1'>
       
-      <div style={{width:'40%'}}>
+      <div className='div__1__1' >
       <div>
       <h3 style={{color:'#fc8621',fontWeight:'400'}}>WHAT WE SERVE</h3>
       <h1>We Provide Top Destinations</h1>
@@ -43,7 +43,7 @@ const Serve = () => {
     <div className="aboutus__crousel">
         <Carousel autoplay   slidesToShow={3} ref={ref}>
              <div className = 'carousal__div'>
-                <img style={{width:'350px',height:'450px'}} src={image1}  alt="maldevs" />
+                <img  src={image1}  alt="maldevs" />
                 <h3 > Enjoy the beauty of Maldives</h3>
                 <p>Maldives, Repbulic Maldives</p>
                 <div className='white'>
@@ -51,7 +51,7 @@ const Serve = () => {
                 </div>
              </div>
              <div className = 'carousal__div'>
-                <img style={{width:'350px',height:'450px'}} src={image2}  alt="maldevs" />
+                <img  src={image2}  alt="maldevs" />
                 <h3 > Enjoy the beauty of Maldives</h3>
                 <p>Maldives, Repbulic Maldives</p>
                 <div className='white'>
@@ -60,7 +60,7 @@ const Serve = () => {
                 </div>
              </div>
              <div className = 'carousal__div'>
-                <img style={{width:'350px',height:'450px'}} src={image3}  alt="maldevs" />
+                <img  src={image3}  alt="maldevs" />
                 <h3 > Enjoy the beauty of Maldives</h3>
                 <p>Maldives, Repbulic Maldives</p>
                 <div className='white'>
@@ -68,10 +68,49 @@ const Serve = () => {
                 </div>
              </div>
              <div className = 'carousal__div'>
-                <img style={{width:'350px',height:'450px'}} src={image4}  alt="maldevs" />
+                <img  src={image4}  alt="maldevs" />
                 <h3 > Enjoy the beauty of Maldives</h3>
                 <p>Maldives, Repbulic Maldives</p>
                 <div className='white'>
+                <p>$490</p>
+                </div>
+             </div>
+        </Carousel>
+        
+    </div>
+    {/* for mobile */}
+    <div className="aboutus__crousel__mobile">
+        <Carousel autoplay   slidesToShow={2} ref={ref}>
+             <div className = 'carousal__div__mobile'>
+                <img  src={image1}  alt="maldevs" />
+                <h3 > Enjoy the beauty of Maldives</h3>
+                <p>Maldives, Repbulic Maldives</p>
+                <div className='white__mobile'>
+                  <p>$430</p>
+                </div>
+             </div>
+             <div className = 'carousal__div__mobile'>
+                <img  src={image2}  alt="maldevs" />
+                <h3 > Enjoy the beauty of Maldives</h3>
+                <p>Maldives, Repbulic Maldives</p>
+                <div className='white__mobile'>
+
+                <p>$560</p>
+                </div>
+             </div>
+             <div className = 'carousal__div__mobile'>
+                <img  src={image3}  alt="maldevs" />
+                <h3 > Enjoy the beauty of Maldives</h3>
+                <p>Maldives, Repbulic Maldives</p>
+                <div className='white__mobile'>
+                <p>$490</p>
+                </div>
+             </div>
+             <div className = 'carousal__div__mobile'>
+                <img  src={image4}  alt="maldevs" />
+                <h3 > Enjoy the beauty of Maldives</h3>
+                <p>Maldives, Repbulic Maldives</p>
+                <div className='white__mobile'>
                 <p>$490</p>
                 </div>
              </div>

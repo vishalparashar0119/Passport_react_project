@@ -49,3 +49,34 @@
   padding: 50px 15px 20px;
   height: 350px;
 }
+/* media quarry for responsive design */
+
+@media only screen and (max-width:600px) {
+
+  .aboutus__component__1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 100px 10px 150px;
+  }
+  .aboutus__component__1__part1{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    gap: 20px;
+  }
+  .image2{
+    position: absolute;
+    top: 0px;
+  }
+  .aboutus__component__1__part1 h1{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display", sans-serif';
+  }
+  .aboutus__component__images img{
+    width: 150px;
+    padding: 50px 10px 20px;
+    height: 200px;
+  }
+
+}

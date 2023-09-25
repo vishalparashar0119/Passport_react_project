@@ -6,6 +6,10 @@
     width: 100%;
     justify-content: space-between;
   }
+  .div__1__1{
+    width: 40%;
+  }
+
   .aboutus__component__2__div1 button{
     width: 100px;
     margin: 5px;
@@ -35,6 +39,14 @@
     margin: 40px 8px;
     height: 90vh;
   }
+  .aboutus__crousel__mobile{
+    display: none;
+  }
+  .carousal__div img{
+     width: 350px;
+     height: 450px;
+  }
+  
   .aboutus__crousel h3{
     font-family: "Playfair Display", sans-serif;
     width: 250px;
@@ -65,4 +77,72 @@
   color: #fc8621;
   font-size: 25px;
   font-weight: 300 !important;
+}
+
+/* medaia quarry for responsive screen */
+
+@media only screen and (max-width : 600px){
+  .aboutus__component__2{
+    margin: 250px 10px 150px
+  }
+  .aboutus__component__2__div1{
+    display: flex;
+    
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .aboutus__component__2__div1 h1{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display", sans-serif';
+  }
+  .div__1__1{
+    width: 100%;
+  }
+  .aboutus__crousel{
+    display: none;
+  }
+  .aboutus__crousel__mobile{
+    display: inline;
+    width: auto;
+    
+  }
+  .carousal__div__mobile img{
+       width: 250px;
+       height: 300px;
+       margin: auto auto;
+  }
+  .white__mobile{
+    width: 50px;
+    height: 40px;
+    background-color: white;
+    z-index: 30;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .white__mobile p{
+    color: #fc8621;
+    font-size: 16px;
+    font-weight: 300 !important;
+  }
+  .aboutus__crousel__mobile{
+    margin: 0px 0px;
+    height: 40vh;
+  }
+  .aboutus__crousel__mobile h3{
+    font-family: "Playfair Display", sans-serif;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .aboutus__crousel__mobile p{
+    color: #999999;
+    margin-left: 10px;
+  }
+ 
 }
