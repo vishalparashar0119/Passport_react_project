@@ -5,6 +5,7 @@ import ServicesUs from './pages/ServicesUs.page';
 import ContactUs from './pages/ContactUs.page';
 import Blog from './pages/Blog.page'
 import SinglePageBlog from'./pages/SinglePageBlog';
+import Responsive from "./pages/Responsive.page";
 function App() {
   return (
     <Routes>
@@ -14,6 +15,7 @@ function App() {
       <Route path = '/servicesus' element = {<ServicesUs/>}/>
       <Route path = '/blog' element = {<Blog/>}/>
       <Route path = '/singlepageblog' element = {<SinglePageBlog/>}/>
+      <Route path = 'responsive' element = {<Responsive/>}/>
     </Routes>
   );
 }

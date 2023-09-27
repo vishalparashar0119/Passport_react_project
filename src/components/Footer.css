@@ -70,19 +70,19 @@
    .footer__section__1{
       display: block;
       margin-top: 60px;
-      width: 100%;
+      width: 40%;
       gap: 90px;
    } 
    .footer{
       background-color: #EFEFEF;
       height: auto;
-      width: 100vw;
+      width: 390px;
       display: flex;
       flex-direction: column;
       padding: 10px;
    }
    .footer__section__1__div__1{
-      width: auto;
+     width: 100%;
      
       
    }

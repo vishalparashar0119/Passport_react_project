@@ -1,5 +1,6 @@
 .aboutus__component{
   height: auto;
+  overflow-x: hidden;
 }
 .aboutus__component__1{
   display: flex;
@@ -74,9 +75,19 @@
     font-family: 'Playfair Display", sans-serif';
   }
   .aboutus__component__images img{
-    width: 150px;
+    width: 15rem;
     padding: 50px 10px 20px;
-    height: 200px;
+    height: 20rem;
+    
   }
 
+}
+@media only  screen and (max-width : 400px){
+  .aboutus__component__images img{
+    width: 150px;
+    padding: 50px 15px 20px;
+    height: 200px;
+    margin: 0px auto;
+    
+  }
 }

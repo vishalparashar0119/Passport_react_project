@@ -2,6 +2,7 @@ import React from 'react'
 import './HeroSection.css'
 import { Link } from 'react-router-dom';
 import { MdLocationOn } from "react-icons/md";
+import { RxHamburgerMenu } from "react-icons/rx";
 const HeroSection = () => {
   return (
     <div className='background__image'>
@@ -18,7 +19,16 @@ const HeroSection = () => {
          <div className='contact__us__button'>
              <Link style={{textDecoration:'none', color:'white', fontWeight:100 , fontSize:'17px'}} to='/contactus' > Contact us</Link>
          </div>
+         
       </nav>
+         <nav className='responsive__nav'>
+              <div>
+              <Link style={{textDecoration:'none', color:'white', fontWeight:500 , fontSize:'25px' ,fontFamily:'Playfair Display", sans-serif'}} to='/'>Passport</Link>
+              </div>
+              <div className='hamburger'>
+                <RxHamburgerMenu/>
+              </div>
+         </nav>
       <div className='location'>
         <div>
             <MdLocationOn/>
