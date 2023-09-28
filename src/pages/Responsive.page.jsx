@@ -1,12 +1,11 @@
 import React from 'react'
-import HeroSection from '../components/HeroSection.component'
-import AboutUs from '../components/AboutUs.component'
+import VlogsCard from '../components/VlogsCard.component'
+
 
 const Responsive = () => {
   return (
     <div>
-      <HeroSection/>
-      <AboutUs/>
+      <VlogsCard/>
     </div>
   )
 }

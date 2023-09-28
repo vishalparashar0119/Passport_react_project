@@ -1,11 +1,13 @@
 .customer{
      border: 2px solid transparent;
      background-color:#EFEFEF;
+    
 }
 
 .customer__main{
     margin: 120px 80px 120px;
     display: flex;
+    flex-wrap: wrap;
     gap: 150px;
 }
 .ant-carousel .slick-dots li button {
@@ -44,4 +46,37 @@
 .customer__main__div2 h1{
     font-size: 3.2rem;
     font-family: 'Playfair Display", sans-serif';
+}
+/* media quarry for 600px screens */
+@media only screen and (max-width:400px)
+{
+    .customer__main{
+        margin: 120px 10px 120px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 150px;
+    }
+    .customer__main__div1 h1{
+        font-size: 2rem;
+        font-family: 'Playfair Display", sans-serif';
+    
+    }
+    .customer__main__div1{
+        width: 100%;
+    }
+    .customer__main__div2 h1{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:600px)
+{
+    .customer__main{
+        margin: 120px 10px 120px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 150px;
+    }
+    .customer__main__div1{
+        width: 100%;
+    }
 }

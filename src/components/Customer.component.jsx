@@ -70,7 +70,7 @@ const Customer = () => {
                     <h1>Frequently Asked Questions</h1>
 
                     <div style={{ marginTop: '80px' }}>
-                         <Collaps/>
+                     <Collaps/>
                     </div>
                 </div>
             </div>

@@ -110,7 +110,7 @@
   .carousal__div__mobile img{
        width: 250px;
        height: 300px;
-       margin: auto auto;
+       margin: 0px 5px;
   }
   .white__mobile{
     width: 50px;
@@ -137,7 +137,7 @@
     font-family: "Playfair Display", sans-serif;
     width: 100%;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 20px;
   }
   .aboutus__crousel__mobile p{
@@ -145,4 +145,18 @@
     margin-left: 10px;
   }
  
+}
+/* media quarry for 400px */
+@media only screen and (max-width : 400px){
+  .carousal__div__mobile img{
+    width: 150px;
+    height: 200px;
+    margin: 0px 5px 0px 15px;
+}
+.carousal__div__mobile h3{
+  font-size: 16px;
+}
+.carousal__div__mobile p{
+  width: 80%;
+}
 }
