@@ -90,6 +90,9 @@ nav div{
         padding: 20px 20px 0px 0px;
         font-size: 20px;
     }
+    .navigation__slider{
+        display: none;
+    }
   
 
 
