@@ -15,7 +15,7 @@ import DefaultLayoutHoc from '../layout/Default.layout';
 const Home = () => {
   return (
     <div>
-      {/* <div className='heading__section'>
+      <div className='heading__section'>
         <h1>
           It is Better to Travel Well Than to Arrive
         </h1>
@@ -34,13 +34,13 @@ const Home = () => {
       <AboutUs/>
       <Serve/>
       <Customer/>
-      <VlogCard/> */}
+      <VlogCard/> 
 
-      {/* <div className='adventue'>
+       <div className='adventue'>
          <h1>Begin your adventurous journey here.</h1>
          <a href="/">Get  Started</a>
 
-      </div> */}
+      </div>
     </div>
   )
 }

@@ -49,6 +49,8 @@ a{
     
     background-color: #fc8621;
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
     padding: 0px 80px;
@@ -71,4 +73,43 @@ a{
     font-family: 'Playfair Display", sans-serif';
     font-weight: 400;
     color: white;
+}
+@media only screen and ( max-width : 600px) {
+    .heading__section{
+        position: relative;
+        top:-530px;
+        margin-left: 10px;
+        width: 100%;
+        z-index: 30;
+        
+    }
+    .heading__section h1{
+        font-size: 2.1rem;
+        width: 100%;
+        font-family: 'Playfair Display", sans-serif';
+        color: white;
+        
+    }
+    .adventue{
+        height: 25vh;
+        
+        background-color: #fc8621;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 0px 10px !important;
+        
+    }
+    .adventue a{
+      margin: 0px auto;
+    }
+    .adventue h1{
+        font-family: 'Playfair Display", sans-serif';
+        font-weight: 400;
+        color: white;
+        
+    }
 }
