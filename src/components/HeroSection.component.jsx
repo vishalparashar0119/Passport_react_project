@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './HeroSection.css'
 import { Link } from 'react-router-dom';
 import { MdLocationOn } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { AiOutlineClose } from "react-icons/ai";
 const HeroSection = () => {
+  const [ active , setActive ] = useState(false);
+   function isOpen (){
+     setActive(true);
+   }
+   function isClose(){
+    setActive(false);
+   }
   return (
+
+    
     <div className='background__image'>
       <div className='overlay'></div>
       <nav>
@@ -25,10 +35,22 @@ const HeroSection = () => {
               <div>
               <Link style={{textDecoration:'none', color:'white', fontWeight:500 , fontSize:'25px' ,fontFamily:'Playfair Display", sans-serif'}} to='/'>Passport</Link>
               </div>
-              <div className='hamburger'>
+              <div onClick={isOpen}    className='hamburger'>
                 <RxHamburgerMenu/>
               </div>
+             
          </nav>
+         <div style={{ position : "absoute", right : active ? "0px" : "-200px"}} className=' navigation__slider'>
+               
+               <div onClick={isClose} className="cross">
+               <AiOutlineClose/>
+               </div>
+            <Link className='nav__button' style={{textDecoration:'none', color:'black', fontWeight:100 , fontSize:'14px'}} to='/'>Home</Link>
+            <Link className='nav__button' style={{textDecoration:'none', color:'black', fontWeight:100 , fontSize:'14px'}} to='/aboutus'>About us</Link>
+            <Link className='nav__button' style={{textDecoration:'none', color:'black', fontWeight:100 , fontSize:'14px'}} to='/'>Dropdown</Link>
+            <Link className='nav__button' style={{textDecoration:'none', color:'black', fontWeight:100 , fontSize:'14px'}} to='/servicesus'>Services</Link>
+            <Link className='nav__button' style={{textDecoration:'none', color:'black', fontWeight:100 , fontSize:'14px'}} to='/blog'>Blog</Link>   
+         </div>
       <div className='location'>
         <div>
             <MdLocationOn/>

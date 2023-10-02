@@ -69,6 +69,29 @@ nav div{
      justify-content: center;
      align-items: center; 
     }
+    .navigation__slider{
+        background-color: white;
+        height: 100vh;
+        width: 50vw;
+        z-index: 40;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px auto auto 0px;
+        right: -200px;
+        transition:  all 0.3s ease;
+        
+        
+    }
+    .navigation__slider div{
+        display:  flex;
+        justify-content: end;
+        padding: 20px 20px 0px 0px;
+        font-size: 20px;
+    }
+  
+
 
     @media only screen and (max-width:600px){
         .responsive__nav__bar{
@@ -104,6 +127,7 @@ nav div{
             color: white;
             margin-left: 100px;
         }
+        
         
         
         
